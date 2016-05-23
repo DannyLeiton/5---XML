@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros xmlns:xsi="http://wwww.w3.org/2000/10/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libros05.xsd">
+<libro>
+	<nombre paginas="600">El Quijote de la Mancha</nombre>
+	<autor>Miguel de Cervantes</autor>
+	<editorial>Oveja Negra</editorial>
+	<precio>200.00</precio>
+	<fecha>2005</fecha>
+</libro>
+<libro>
+	<nombre paginas="500">Cien años de soledad</nombre>
+	<autor>Gabriel García Márquez</autor>
+	<editorial>Oveja Negra</editorial>
+	<precio>300.00</precio>
+	<fecha>2000</fecha>
+</libro>
+<libro>
+	<nombre paginas="600">La guerra del fin del mundo</nombre>
+	<autor>Mario Vargas Llosa</autor>
+	<editorial>El barco de vapor</editorial>
+	<precio>350.00</precio>
+	<fecha>2010</fecha>
+</libro>
+</libros>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--Que solo va a tener un libro-->
+<!DOCTYPE libros[
+	<!ELEMENT libros (libro)>
+	<!ELEMENT libro (nombre, autor, editorial, precio)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ATTLIST nombre paginas CDATA #REQUIRED>
+	<!ELEMENT autor (#PCDATA)>
+	<!ELEMENT editorial (#PCDATA)>
+	<!ELEMENT precio (#PCDATA)>
+	<!ELEMENT fecha (#PCDATA)>
+]>
+<libros>
+	<libro>
+		<nombre paginas="600">El Quijote de la Mancha</nombre>
+		<autor>Miguel de Cervantes</autor>
+		<editorial>Jolines Editorial</editorial>
+		<precio>500</precio>
+		<fecha>2013</fecha>
+	</libro>
+	<libro>
+		<nombre paginas="500">Cien años de soledad</nombre>
+		<autor>Gabriel García Márquez</autor>
+		<editorial>Bacano Editorial</editorial>
+		<precio>1000</precio>
+		<fecha>2012</fecha>
+	</libro>
+	<libro>
+		<nombre paginas="60">El Principito</nombre>
+		<autor>Antoine de Saint Exupéry</autor>
+		<editorial>L'Editor</editorial>
+		<precio>20000</precio>
+		<fecha>2011</fecha>
+	</libro>
+	<libro>
+		<nombre paginas="300">Cocorí</nombre>
+		<autor>Joaquín García</autor>
+		<editorial>Rua Bravo</editorial>
+		<precio>50000</precio>
+		<fecha>2010</fecha>
+	</libro>
+	<libro/>
+</libros>

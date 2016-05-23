@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2000/10/XMLSchema">
+<xs:annotation>
+<xs:documentation>
+	Este archivo valida al archivo libros05.xml.
+</xs:documentation>
+</xs:annotation>
+<xs:element name="libros">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="libro" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="nombre">
+							<xs:complexType>
+								<xs:simpleContent>
+									<xs:extension base="xs:string">
+										<xs:attribute type="xs:short" name="paginas" use:"optional">
+									</xs:extension>
+								</xs:simpleContent>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="autor" type="xs:string"/>
+						<xs:element name="editorial" type="xs:string"/>
+						<xs:element name="precio" type="xs:float"/>
+						<xs:element name="fecha" type="xs:year"/>
+					</xs:sequence>
+				</xs:complexType>			
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>		
+</xs:schema>

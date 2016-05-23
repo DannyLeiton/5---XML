@@ -1,0 +1,8 @@
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (nombre, autor, editorial, precio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre paginas CDATA #REQUIRED>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>

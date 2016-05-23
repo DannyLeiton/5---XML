@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/css" href="../../css/libros.css"?>
+<libros>
+	<libro>
+		<nombre paginas="600">El Quijote de la Macha</nombre>
+		<autor>Miguel de Cervantes</autor>
+		<editorial>Jolines Editorial</editorial>
+	</libro>
+	<libro>
+		<nombre paginas="500">Cien años de soledad</nombre>
+		<autor>Gabriel García Márquez</autor>
+		<editorial>Bacano Editorial</editorial>
+	</libro>
+	<libro>
+		<nombre paginas="100">Cocorí</nombre>
+		<autor>Joaquín García</autor>
+		<editorial>Rapa Nui</editorial>
+	</libro>
+	<libro/>
+</libros>

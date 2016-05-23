@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tiendas.css"?>
+<tiendas>
+	<tienda>
+		<num>0</num>
+		<calle>20</calle>
+		<ciudad>San José</ciudad>
+		<estado>San José City</estado>
+		<telefono>22222222</telefono>
+		<mapa>mapa01.png</mapa>
+	</tienda>
+	<tienda>
+		<num>1</num>
+		<calle>22</calle>
+		<ciudad>Heredia</ciudad>
+		<estado>Heredia City</estado>
+		<telefono>22222223</telefono>
+		<mapa>mapa02.png</mapa>
+	</tienda>
+	<tienda>
+		<num>2</num>
+		<calle>24</calle>
+		<ciudad>Alajuela</ciudad>
+		<estado>Alajuela City</estado>
+		<telefono>22222224</telefono>
+		<mapa>mapa03.png</mapa>
+	</tienda>
+</tiendas>

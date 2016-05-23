@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+	<empleado>
+		<titulo>Lic.</titulo>
+		<nombres>Sandra</nombres>
+		<apellidos>López</apellidos>
+		<puesto>Directora</puesto>
+		<departamento>Presidencia</departamento>
+		<mail>sandra@mail.com</mail>
+	</empleado>
+	<empleado>
+		<titulo>Sr.</titulo>
+		<nombres>Óscar</nombres>
+		<apellidos>Pérez</apellidos>
+		<puesto>Gerente</puesto>
+		<departamento>Sistemas</departamento>
+		<mail>oscar@mail.com</mail>
+	</empleado>
+	<empleado>
+		<titulo>Srita.</titulo>
+		<nombres>Sonia</nombres>
+		<apellidos>Hernández</apellidos>
+		<puesto>Secretaria</puesto>
+		<departamento>Sistemas</departamento>
+		<mail>sonia@mail.com</mail>
+	</empleado>
+</empleados>

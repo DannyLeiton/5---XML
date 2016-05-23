@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- Este es mi primer XML from the scratch 
+Comportamiento no deseado: <nombre>El <b>Quijote</b> de la Macha</nombre>
+<?xml-stylesheet type="text/xsl" href="estilos.css"?>-->
+<libros>
+	<libro paginas="600">
+		<nombre paginas="600"><![CDATA[El <b>Quijote</b> de la <i>Macha</i>]]></nombre>
+		<autor>Miguel de Cervantes</autor>
+		<editorial>Jolines Editorial</editorial>
+		<precio>500</precio>
+		<fecha>2013</fecha>
+	</libro>
+	<libro paginas="500">
+		<nombre paginas="500">Cien años de soledad</nombre>
+		<autor>Gabriel García Márquez</autor>
+		<editorial>Bacano Editorial</editorial>
+		<precio>1000</precio>
+		<fecha>2012</fecha>
+	</libro>
+	<libro paginas="60">
+		<nombre paginas="60">El Principito</nombre>
+		<autor>Antoine de Saint Exupéry</autor>
+		<editorial>L'Editor</editorial>
+		<precio>20000</precio>
+		<fecha>2011</fecha>
+	</libro>
+	<libro paginas="300">
+		<nombre paginas="300">Cocorí</nombre>
+		<autor>Joaquín García</autor>
+		<editorial>Rua Bravo</editorial>
+		<precio>50000</precio>
+		<fecha>2010</fecha>
+	</libro>
+	<libro/>
+</libros>
